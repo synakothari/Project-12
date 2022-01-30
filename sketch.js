@@ -39,6 +39,12 @@ function draw() {
   
    drawSprites();
    
+  textSize(25);
+  strokeWeight(5);
+  stroke("blue");
+  fill("red");
+  text("Hey! Welcome to my field", 30,200);
+  
   
  //var select_sprites = Math(random(1,3));
 
